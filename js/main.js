@@ -12,7 +12,7 @@ $(document).ready(function(){
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
 
-     
+
      // -------   Active Mobile Menu-----//
 
     $(".menu-bar").on('click', function(e){
@@ -21,7 +21,7 @@ $(document).ready(function(){
         $("span", this).toggleClass("lnr-menu lnr-cross");
         $(".main-menu").addClass('mobile-menu');
     });
-     
+
     $('select').niceSelect();
     $('.img-pop-up').magnificPopup({
         type: 'image',
@@ -35,7 +35,7 @@ $(document).ready(function(){
         loop:true,
         nav: false,
         autoplay: true,
-        autoplayTimeout:3000,
+        autoplayTimeout:7500,
         autoplayHoverPause:true
     });
 
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
     $(document).ready(function() {
         $('#mc_embed_signup').find('form').ajaxChimp();
-    });      
+    });
     // -------   Mail Send ajax
 
  });
