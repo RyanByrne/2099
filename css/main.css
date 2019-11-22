@@ -2643,3 +2643,12 @@ nav a:hover {
 #services{
   padding-top: 0;
 }
+
+.project-quote, .blockquote{
+  text-align: center;
+}
+
+.project-quote-bottom{
+  padding-top: 0;
+  text-align: center;
+}
