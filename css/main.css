@@ -2138,7 +2138,7 @@ nav a:hover {
 }
 
 .studio-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
 }
 
 .studio-area .studio-thumb {
@@ -2261,7 +2261,7 @@ nav a:hover {
 }
 
 .video-area .overlay-bg {
-  background: rgba(224, 0, 59, 0.8);
+  background: rgba(224, 0, 59, 0.6);
 }
 
 .video-area .video-content {
@@ -2306,7 +2306,7 @@ nav a:hover {
 }
 
 .carousel-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
 }
 
 .active-bottle-carousel {
@@ -2473,7 +2473,7 @@ nav a:hover {
 }
 
 .footer-widget-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
 }
 
 .footer-widget-area .container {
@@ -2638,4 +2638,8 @@ nav a:hover {
 
 .testimonial{
   background-color: #FBF749;
+}
+
+#services{
+  padding-top: 0;
 }
